@@ -96,7 +96,7 @@ export default function PracticalInfoPage() {
           </p>
           <p>
             Ik ben geen zelfstandige, maar maak deel uit van het team van <a href="https://www.vives.be/nl/continue">Vives Continue</a>. het platform voor levenslang leren van <a href= "www.vives.be">Hogeschool VIVES</a>. 
-            Onze missie? Mijn technologische expertise delen met de wereld buiten de campus, zodat we samen de toekomst vormgeven.
+            Onze missie? Mijn technologische expertise delen met de wereld buiten de campus, zodat we samen onze digitale leefwereld zo veilig mogelijk kunnen houden.
           </p>
         </div>
       </div>
