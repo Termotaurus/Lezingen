@@ -8,7 +8,7 @@ export default function BioPage() {
           <h1 className="text-4xl font-bold text-vives-teal mb-8">Over Tom Termote</h1>
 
           <p className="lead italic text-xl text-gray-600 mb-8">
-            &quot;Is cybersecurity saai? Niet als je het mij vraagt.&quot;
+            &quot;Grip op de digitale wereld, van speelplaats tot werkplaats.&quot;
           </p>
 
           <p>
