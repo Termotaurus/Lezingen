@@ -15,6 +15,14 @@ export default function Header() {
             priority
           />
         </Link>
+        <nav className="flex items-center gap-8">
+          <Link href="/bio" className="text-gray-700 hover:text-vives-teal font-medium transition-colors">
+            Bio
+          </Link>
+          <Link href="#" className="bg-vives-red text-white px-6 py-2.5 rounded-full font-medium hover:bg-red-700 transition-colors">
+            Kalender
+          </Link>
+        </nav>
       </div>
     </header>
   );

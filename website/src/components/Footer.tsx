@@ -19,7 +19,7 @@ export default function Footer() {
 
         <div className="text-gray-600 text-sm text-center md:text-right">
            <p className="font-semibold text-vives-teal">Tom Termote</p>
-           <p>Docent & Cybersecurity Expert</p>
+           <p>Docent ICT en publiek spreker over mediawijsheid en cyberveiligheid</p>
         </div>
       </div>
     </footer>

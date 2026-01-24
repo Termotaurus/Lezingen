@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tom Termote - Cybersecurity Expert",
-  description: "Webpage about Tom Termote, Cybersecurity Expert and Docent at VIVES.",
+  title: "Tom Termote - Docent ICT en publiek spreker over mediawijsheid en cyberveiligheid",
+  description: "Webpage about Tom Termote, Docent ICT en publiek spreker over mediawijsheid en cyberveiligheid.",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="nl">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col font-sans`}
       >

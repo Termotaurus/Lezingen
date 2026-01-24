@@ -1,12 +1,12 @@
 import Hero from "@/components/Hero";
-import Bio from "@/components/Bio";
+import BookingInfo from "@/components/BookingInfo";
 import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Bio />
+      <BookingInfo />
       <Gallery />
     </>
   );
