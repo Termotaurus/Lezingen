@@ -9,7 +9,7 @@ export default function BookingInfo() {
           <h2 className="text-3xl font-bold text-vives-teal mb-6">Klaar voor een jaar vol groei?</h2>
 
           <p>
-            Bedankt voor je enorme enthousiasme! Voor het schooljaar '25-'26 zijn onze vormingen momenteel volledig volgeboekt.
+            Bedankt voor je enorme enthousiasme! Voor het schooljaar &apos;25-&apos;26 zijn onze vormingen momenteel volledig volgeboekt.
           </p>
 
           <p>
@@ -21,7 +21,7 @@ export default function BookingInfo() {
           </p>
 
           <p className="mt-8 font-medium italic text-vives-teal">
-            Samen bouwen we aan de toekomst bij <a href="https://www.vives.be/nl/continue">VIVES Continue</a>: de plek voor levenslang leren en inspiratie.
+            Samen bouwen we aan de toekomst bij <a href="https://www.vives.be/nl/continue" target="_blank" rel="noopener noreferrer">VIVES Continue</a>: de plek voor levenslang leren en inspiratie.
           </p>
         </div>
       </div>
