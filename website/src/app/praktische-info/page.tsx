@@ -1,4 +1,5 @@
 import React from "react";
+import ObfuscatedEmail from "@/components/ObfuscatedEmail";
 
 export default function PracticalInfoPage() {
   return (
@@ -91,7 +92,7 @@ export default function PracticalInfoPage() {
             Dan openen we de inschrijvingen voor het nieuwe seizoen. Wees er snel bij, want de plaatsen zijn beperkt en de kalender loopt razendsnel vol!
           </p>
           <p>
-            <strong>Zo meld je je aan:</strong> Stuur je aanvraag naar <a href="mailto:tom.termote@vives.be">tom.termote@vives.be</a>.
+            <strong>Zo meld je je aan:</strong> Stuur je aanvraag naar <ObfuscatedEmail email="tom.termote@vives.be" />.
             Hoe flexibeler je aanvraag (qua datum en locatie), hoe groter de kans dat we een match vinden in onze planning.
           </p>
           <p>
