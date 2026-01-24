@@ -1,4 +1,5 @@
 import React from "react";
+import ObfuscatedEmail from "./ObfuscatedEmail";
 
 export default function BookingInfo() {
   return (
@@ -16,7 +17,7 @@ export default function BookingInfo() {
           </p>
 
           <p>
-            <strong>Zo meld je je aan:</strong> Stuur je aanvraag naar <a href="mailto:tom.termote@vives.be">tom.termote@vives.be</a>. Hoe flexibeler je aanvraag (qua datum en locatie), hoe groter de kans dat we een match vinden in onze planning.
+            <strong>Zo meld je je aan:</strong> Stuur je aanvraag naar <ObfuscatedEmail email="tom.termote@vives.be" />. Hoe flexibeler je aanvraag (qua datum en locatie), hoe groter de kans dat we een match vinden in onze planning.
           </p>
 
           <p className="mt-8 font-medium italic text-vives-teal">
