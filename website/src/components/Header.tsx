@@ -1,7 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
+import { supabase } from "../lib/supabase";
 
-export default function Header() {
+export default async function Header() {
+  // Fetch upcoming events count
+  const { count } = await supabase
+    .from("Vormingen")
+    .select("*", { count: 'exact', head: true })
+    .gte("Datum", new Date().toISOString());
+
+  const hasUpcomingEvents = count !== null && count > 0;
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
@@ -25,9 +34,11 @@ export default function Header() {
           <Link href="/aanbod" className="text-gray-700 hover:text-vives-teal font-medium transition-colors">
             Aanbod
           </Link>
-          <Link href="/kalender" className="bg-vives-red text-white px-6 py-2.5 rounded-full font-medium hover:bg-red-700 transition-colors">
-            Kalender
-          </Link>
+          {hasUpcomingEvents && (
+            <Link href="/kalender" className="bg-vives-red text-white px-6 py-2.5 rounded-full font-medium hover:bg-red-700 transition-colors">
+              Kalender
+            </Link>
+          )}
         </nav>
       </div>
     </header>
