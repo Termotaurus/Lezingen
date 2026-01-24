@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="bg-gray-100 py-12 mt-20 border-t border-gray-200">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex flex-col items-center md:items-start">
-           <a href="www.vives.be">
            <Image
             src="/images/CONTINUE_VIVES_RGB_LOGO.png"
             alt="VIVES Logo"
@@ -13,7 +12,6 @@ export default function Footer() {
             height={50}
             className="h-10 w-auto object-contain mb-4"
           />
-          </a>
           <p className="text-gray-600 text-sm">
             © {new Date().getFullYear()} Tom Termote. All rights reserved.
           </p>
