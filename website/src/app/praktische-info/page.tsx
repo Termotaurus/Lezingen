@@ -80,7 +80,7 @@ export default function PracticalInfoPage() {
           <h2 className="text-2xl font-bold text-vives-teal mt-12 mb-4">Benodigdheden</h2>
           <ul className="list-disc pl-5 space-y-2">
             <li>Microfoon / headset indien groep groter dan 50 personen</li>
-            <li>HDMI aansluiting voor projectie (ik breng mijn eigen Windowslaptop mee)</li>
+            <li>HDMI-aansluiting voor projectie (Ik breng mijn eigen Windowslaptop mee.)</li>
             <li>Geluid voor mijn laptop via audiojack, rechtstreeks via HDMI of Bluetooth</li>
             <li>Laptop graag zo dicht mogelijk bij mij (voor de pointer)</li>
           </ul>
