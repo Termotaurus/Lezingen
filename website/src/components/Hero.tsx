@@ -9,11 +9,7 @@ export default function Hero() {
                     Tom Termote
                 </h1>
                 <p className="text-xl md:text-2xl text-gray-200 font-light">
-                    Docent & Cybersecurity Expert
-                </p>
-                <div className="h-1 w-20 bg-vives-red rounded-full"></div>
-                <p className="text-lg text-gray-100 max-w-lg italic">
-                    &quot;Is cybersecurity saai? Niet als je het mij vraagt.&quot;
+                    Docent ICT en publiek spreker over mediawijsheid en cyberveiligheid
                 </p>
             </div>
 
