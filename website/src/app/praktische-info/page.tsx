@@ -95,8 +95,8 @@ export default function PracticalInfoPage() {
             Hoe flexibeler je aanvraag (qua datum en locatie), hoe groter de kans dat we een match vinden in onze planning.
           </p>
           <p>
-            <strong>Ik werk niet op zelfstandige basis.</strong> Ik ben een werknemer van <a href="https://www.vives.be/nl/continue">Vives Continue</a>, het centrale platform voor levenslang leren van <a href= "www.vives.be">Hogeschool VIVES</a>. 
-            Samen met mijn hogeschool hebben we ons geëngageerd om mijn technologische kennis ook buiten de muren van onze campussen te verspreiden.
+            Ik ben geen zelfstandige, maar maak deel uit van het team van <a href="https://www.vives.be/nl/continue">Vives Continue</a>. het platform voor levenslang leren van <a href= "www.vives.be">Hogeschool VIVES</a>. 
+            Onze missie? Mijn technologische expertise delen met de wereld buiten de campus, zodat we samen de toekomst vormgeven.
           </p>
         </div>
       </div>
