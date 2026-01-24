@@ -96,7 +96,7 @@ export default function PracticalInfoPage() {
             Hoe flexibeler je aanvraag (qua datum en locatie), hoe groter de kans dat we een match vinden in onze planning.
           </p>
           <p>
-            Ik ben geen zelfstandige, maar maak deel uit van het team van <a href="https://www.vives.be/nl/continue">Vives Continue</a>, het platform voor levenslang leren van <a href= "www.vives.be">Hogeschool VIVES</a>. 
+            Ik ben geen zelfstandige, maar maak deel uit van het team van <a href="https://www.vives.be/nl/continue" target="_blank" rel="noopener noreferrer">Vives Continue</a>, het platform voor levenslang leren van <a href="https://www.vives.be" target="_blank" rel="noopener noreferrer">Hogeschool VIVES</a>.
             Wij geloven heilig dat een diploma geen eindpunt is, maar een startschot voor een voortdurende ontwikkeling. Daar draag ik graag mijn steentje aan bij.
           </p>
         </div>
