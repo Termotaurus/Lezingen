@@ -20,7 +20,7 @@ export default function BookingInfo() {
           </p>
 
           <p className="mt-8 font-medium italic text-vives-teal">
-            Samen bouwen we aan de toekomst bij Vives Continue: dé plek voor levenslang leren en inspiratie.
+            Samen bouwen we aan de toekomst bij <a href="https://www.vives.be/nl/continue">VIVES Continue</a>: de plek voor levenslang leren en inspiratie.
           </p>
         </div>
       </div>
