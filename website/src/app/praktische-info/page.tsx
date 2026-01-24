@@ -94,6 +94,10 @@ export default function PracticalInfoPage() {
             <strong>Zo meld je je aan:</strong> Stuur je aanvraag naar <a href="mailto:tom.termote@vives.be">tom.termote@vives.be</a>.
             Hoe flexibeler je aanvraag (qua datum en locatie), hoe groter de kans dat we een match vinden in onze planning.
           </p>
+          <p>
+            <strong>Ik werk niet op zelfstandige basis.</strong> Ik ben een werknemer van <a href="https://www.vives.be/nl/continue">Vives Continue</a>, het centrale platform voor levenslang leren van <a href= "www.vives.be">Hogeschool VIVES</a>. 
+            Samen met mijn hogeschool hebben we ons geëngageerd om mijn technologische kennis ook buiten de muren van onze campussen te verspreiden.
+          </p>
         </div>
       </div>
     </section>
