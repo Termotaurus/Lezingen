@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -12,9 +13,15 @@ export default function Footer() {
             height={50}
             className="h-10 w-auto object-contain mb-4"
           />
-          <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} Tom Termote. All rights reserved.
-          </p>
+          <div className="text-gray-600 text-sm flex flex-col md:flex-row gap-2 md:gap-4 items-center">
+            <p>
+              © {new Date().getFullYear()} Tom Termote. All rights reserved.
+            </p>
+            <span className="hidden md:inline text-gray-400">|</span>
+            <Link href="/privacy" className="hover:text-vives-teal transition-colors">
+              Privacybeleid
+            </Link>
+          </div>
         </div>
 
         <div className="text-gray-600 text-sm text-center md:text-right">
