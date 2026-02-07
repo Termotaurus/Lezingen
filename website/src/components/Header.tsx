@@ -19,6 +19,9 @@ export default function Header() {
           <Link href="/bio" className="text-gray-700 hover:text-vives-teal font-medium transition-colors">
             Wie ben ik?
           </Link>
+          <Link href="/publicaties" className="text-gray-700 hover:text-vives-teal font-medium transition-colors">
+            Online Portfolio
+          </Link>
           <Link href="/praktische-info" className="text-gray-700 hover:text-vives-teal font-medium transition-colors">
             Praktische info
           </Link>
