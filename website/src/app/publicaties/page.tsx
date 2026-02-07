@@ -40,6 +40,18 @@ const portfolioItems: PortfolioItem[] = [
     category: "Onderwijs",
   },
   {
+    title: "Publiek spreker voor Vives Continue",
+    description: "Spreker voor lezingen en workshops op maat bij Vives Continue",
+    url: "https://continue.vives.be/nl/opleidingen-op-maat/domein=biologie%20%26%20technologie",
+    category: "Onderwijs",
+  },
+  {
+    title: "Podcast - Televisieoptreden Tafel van Gert",
+    description: "Kinderen op sociale media: \"Binnen 30 minuten blootgesteld aan schadelijke content.\"",
+    url: "https://omny.fm/shows/de-tafel-van-gert/kinderen-op-sociale-media-binnen-30-minuten-blootgesteld-aan-schadelijke-content",
+    category: "Podcast",
+  },
+  {
     title: "Podcast: Ouders komen SAMEN van Mars",
     description: "Te gast in de podcast over opvoeden in een digitaal tijdperk.",
     url: "https://open.spotify.com/episode/5s60mv5CrYB5JPu7EB58r6",
