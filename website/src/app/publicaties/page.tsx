@@ -10,6 +10,12 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
   {
+    title: "Radio 1: De wereld vandaag",
+    description: "Interview over TikTok en Europese regelgeving",
+    url: "https://www.vrt.be/vrtmax/luister/radio/d/de-wereld-vandaag~11-10/de-wereld-vandaag~11-35604-0/fragment~b01a5dcb-b666-4242-8f8b-5971785e0475/",
+    category: "Interview",
+  },
+  {
     title: "Interview met de krant De Morgen",
     description: "\"We laten onze kinderen massaal in de steek\": expert over schermgebruik.",
     url: "https://www.demorgen.be/tech-wetenschap/we-laten-onze-kinderen-massaal-in-de-steek-expert-over-schermgebruik~b18931da/",
@@ -49,6 +55,12 @@ const portfolioItems: PortfolioItem[] = [
     title: "Podcast: Ip de kaffie",
     description: "De menselijke factor van cybersecurity: een gesprek over veiligheid en gedrag.",
     url: "https://open.spotify.com/episode/51OVGQuZ1pyyhWaqWO05cG",
+    category: "Podcast",
+  },
+  {
+    title: "Op papier Podcast",
+    description: "Gesprek over wat mij creatief drijft om te doen wat ik doe",
+    url: "https://open.spotify.com/episode/3gFVknsUKXlQ7miBwcrJCq",
     category: "Podcast",
   },
 ];
