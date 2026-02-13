@@ -28,6 +28,9 @@ export default function Header() {
           <Link href="/aanbod" className="text-gray-700 hover:text-vives-teal font-medium transition-colors">
             Aanbod
           </Link>
+          <Link href="/aanraders" className="text-gray-700 hover:text-vives-teal font-medium transition-colors">
+            Aanraders
+          </Link>
           <Link href="/kalender" className="bg-vives-red text-white px-6 py-2.5 rounded-full font-medium hover:bg-red-700 transition-colors">
             Kalender
           </Link>
