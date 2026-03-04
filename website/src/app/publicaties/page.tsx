@@ -10,6 +10,12 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
   {
+    title: "Goed genoeg! Over smartphones en waarom voorbereiding alles is",
+    description: "Een gesprek over mediawijsheid voor het boek Goed Genoeg van Siska Schoeters.",
+    url: "https://podcasts.apple.com/us/podcast/goed-genoeg-over-smartphones-en-waarom-voorbereiding/id1845373049?i=1000752887476",
+    category: "Podcast",
+  },
+  {
     title: "Radio 1: De wereld vandaag",
     description: "Interview over TikTok en Europese regelgeving",
     url: "https://www.vrt.be/vrtmax/luister/radio/d/de-wereld-vandaag~11-10/de-wereld-vandaag~11-35604-0/fragment~b01a5dcb-b666-4242-8f8b-5971785e0475/",
