@@ -10,6 +10,12 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
   {
+    title: "Mediawijsheidexpert Tom Termote: Als je de seksuitleg nog niet gaf, is je kind niet klaar voor een smartphone.",
+    description: "Over de vraag wanneer een kind klaar is voor een smartphone en waarom voorbereiding belangrijker is dan leeftijd.",
+    url: "https://www.mamabaas.be/momlife/algemeen/mediawijsheidexpert-tom-termote-als-je-de-seksuitleg-nog-niet-gaf-je-kind-niet",
+    category: "Artikel",
+  },
+  {
     title: "Goed genoeg! Over smartphones en waarom voorbereiding alles is",
     description: "Een gesprek over mediawijsheid voor het boek Goed Genoeg van Siska Schoeters.",
     url: "https://podcasts.apple.com/us/podcast/goed-genoeg-over-smartphones-en-waarom-voorbereiding/id1845373049?i=1000752887476",
