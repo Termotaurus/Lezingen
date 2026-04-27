@@ -39,6 +39,12 @@ const recommendationItems: RecommendationItem[] = [
     url: "https://tegenlicht.vpro.nl/",
     category: "Audiovisueel",
   },
+  {
+    title: "Persoonlijke playlist digitale media",
+    description: "Dit is mijn persoonlijke playlist voor alles wat mij kritisch doet nadenken over digitale media.",
+    url: "https://youtube.com/playlist?list=PLvPbWxMWEmalB9Kv9H6SL_mzWkEhDyJzb&si=cxn48JrPBqtZ2PQ2",
+    category: "Audiovisueel",
+  },
 ];
 
 export default function AanradersPage() {
