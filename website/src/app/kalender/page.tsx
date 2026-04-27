@@ -9,7 +9,14 @@ type Event = {
   Doelgroep: string;
 };
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 3600;
+
+const dateFormatter = new Intl.DateTimeFormat("nl-BE", {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
 
 export default async function KalenderPage() {
   // Fetch data
@@ -56,12 +63,12 @@ export default async function KalenderPage() {
                     </h2>
                     <div className="flex items-center text-gray-600 mb-2">
                        <span className="font-semibold mr-2">Datum:</span>
-                       {new Date(event.Datum).toLocaleDateString("nl-BE", {
-                         weekday: 'long',
-                         year: 'numeric',
-                         month: 'long',
-                         day: 'numeric'
-                       })}
+                       {(() => {
+                         const date = new Date(event.Datum);
+                         return !isNaN(date.getTime())
+                           ? dateFormatter.format(date)
+                           : event.Datum;
+                       })()}
                     </div>
                   </div>
 
