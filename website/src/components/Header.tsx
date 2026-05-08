@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md">
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
+    <header className="z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md">
+      <div className="container mx-auto px-4 h-20 flex items-center justify-between gap-4">
+        <Link href="/" className="flex-shrink-0 flex items-center gap-2">
           <Image
             src="/images/CONTINUE_VIVES_RGB_LOGO.png"
             alt="VIVES Logo"
@@ -15,7 +15,7 @@ export default function Header() {
             priority
           />
         </Link>
-        <nav className="flex items-center gap-8">
+        <nav className="flex items-center gap-4 md:gap-8 overflow-x-auto whitespace-nowrap scrollbar-hide py-2">
           <Link href="/bio" className="text-gray-700 hover:text-vives-teal font-medium transition-colors">
             Wie ben ik?
           </Link>
