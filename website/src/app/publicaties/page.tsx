@@ -10,6 +10,12 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
   {
+    title: "Onthutsende reacties op sociale media over dodelijk ongeval met tieners",
+    description: "Kort interview over hevige reacties online",
+    url: "https://www.demorgen.be/nieuws/onthutsende-reacties-op-sociale-media-over-dodelijk-ongeval-met-tieners-ze-beseffen-niet-dat-ze-hier-vrienden-en-familie-mee-raken~bfe2769d/",
+    category: "Interview",
+  },
+  {
     title: "Mediawijsheidexpert Tom Termote: Als je de seksuitleg nog niet gaf, is je kind niet klaar voor een smartphone.",
     description: "Over de vraag wanneer een kind klaar is voor een smartphone en waarom voorbereiding belangrijker is dan leeftijd.",
     url: "https://www.mamabaas.be/momlife/algemeen/mediawijsheidexpert-tom-termote-als-je-de-seksuitleg-nog-niet-gaf-je-kind-niet",
