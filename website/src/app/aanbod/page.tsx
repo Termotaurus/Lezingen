@@ -22,6 +22,8 @@ export default function AanbodPage() {
               <li>Reclame, scams en grooming herkennen en vermijden.</li>
               <li>Juist handelen bij problemen: praten, blokkeren, rapporteren.</li>
               <li>Gezond omgaan met schermtijd en de valstrikken van apps doorzien.</li>
+              <li>Waarom bepaalde apps niet geschikt zijn voor kinderen.</li>
+              <li>Wat moet je doen als je erge dingen ziet online.</li>
             </ul>
           </div>
 
