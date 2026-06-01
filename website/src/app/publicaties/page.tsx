@@ -10,6 +10,12 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
   {
+    title: "Podcast: Kids Unplugged",
+    description: "In deze podcastreeks word ik geïnterviewd door de organisatie Kids Unplugged Belgium.",
+    url: "https://www.kidsunplugged.be/podcast",
+    category: "Podcast",
+  },
+  {
     title: "Onthutsende reacties op sociale media over dodelijk ongeval met tieners",
     description: "Kort interview over hevige reacties online",
     url: "https://www.demorgen.be/nieuws/onthutsende-reacties-op-sociale-media-over-dodelijk-ongeval-met-tieners-ze-beseffen-niet-dat-ze-hier-vrienden-en-familie-mee-raken~bfe2769d/",
