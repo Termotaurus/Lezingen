@@ -99,6 +99,12 @@ const portfolioItems: PortfolioItem[] = [
     url: "https://open.spotify.com/episode/3gFVknsUKXlQ7miBwcrJCq",
     category: "Podcast",
   },
+  {
+    title: "Podcast: Tweespraak",
+    description: "Een gezellige babbel over meer dan mediawijsheid.",
+    url: "https://open.spotify.com/episode/48CNTyQ2BhQkCdPNqRm0hl?si=838c483b6e0341a9",
+    category: "Podcast",
+  },
 ];
 
 export default function PublicatiesPage() {
