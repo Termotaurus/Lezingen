@@ -13,7 +13,11 @@ export default function BookingInfo() {
           </p>
 
           <p>
-            Wil je er de volgende keer als eerste bij zijn? Noteer <strong>maandag 14 juni 2027</strong> dan met stip in je agenda. Dan openen we de inschrijvingen voor het nieuwe seizoen. Wees er snel bij, want de plaatsen zijn beperkt en de kalender loopt razendsnel vol!
+            Wil je er de volgende keer als eerste bij zijn? Noteer <strong>maandag 14 juni 2027</strong> dan met stip in je agenda. Dan openen we de inschrijvingen voor het nieuwe seizoen. Wees er snel bij, want de plaatsen zijn zeer beperkt en de kalender loopt razendsnel vol!
+          </p>
+
+          <p>
+            Om de planning voor iedereen zo efficiënt mogelijk te laten verlopen, hanteer ik een prioriteitenregeling. Vaste klanten die al jaren op mij vertrouwen én grootschalige boekingen (zoals samenwerkende scholengemeenschappen en gemeente- of stadsbesturen) krijgen hierbij altijd voorrang.
           </p>
 
           <p>
