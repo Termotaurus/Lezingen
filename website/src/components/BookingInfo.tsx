@@ -9,11 +9,11 @@ export default function BookingInfo() {
           <h2 className="text-3xl font-bold text-vives-teal mb-6">Klaar voor een jaar vol groei?</h2>
 
           <p>
-            Bedankt voor je enorme enthousiasme! Voor het schooljaar &apos;25-&apos;26 zijn onze vormingen momenteel volledig volgeboekt.
+            Bedankt voor je enorme enthousiasme! Voor het schooljaar &apos;26-&apos;27 zijn onze vormingen momenteel volledig volgeboekt.
           </p>
 
           <p>
-            Wil je er de volgende keer als eerste bij zijn? Noteer <strong>15 juni 2026</strong> dan met stip in je agenda. Dan openen we de inschrijvingen voor het nieuwe seizoen. Wees er snel bij, want de plaatsen zijn beperkt en de kalender loopt razendsnel vol!
+            Wil je er de volgende keer als eerste bij zijn? Noteer <strong>maandag 14 juni 2027</strong> dan met stip in je agenda. Dan openen we de inschrijvingen voor het nieuwe seizoen. Wees er snel bij, want de plaatsen zijn beperkt en de kalender loopt razendsnel vol!
           </p>
 
           <p>

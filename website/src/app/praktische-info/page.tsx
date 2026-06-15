@@ -88,7 +88,7 @@ export default function PracticalInfoPage() {
 
           <h2 className="text-2xl font-bold text-vives-teal mt-12 mb-4">Boekingsinformatie</h2>
           <p>
-            Wil je er de volgende keer als eerste bij zijn? Noteer <strong>15 juni 2026</strong> dan met stip in je agenda.
+            Wil je er de volgende keer als eerste bij zijn? Noteer <strong>maandag 14 juni 2027</strong> dan met stip in je agenda.
             Dan openen we de inschrijvingen voor het nieuwe seizoen. Wees er snel bij, want de plaatsen zijn beperkt en de kalender loopt razendsnel vol!
           </p>
           <p>
