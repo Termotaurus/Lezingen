@@ -5,10 +5,46 @@ interface RecommendationItem {
   title: string;
   description: string;
   url: string;
-  category: "Lezen" | "Audiovisueel";
+  category: "Lezen" | "Audiovisueel" | "Vorming en informatie";
 }
 
 const recommendationItems: RecommendationItem[] = [
+  {
+    title: "Mediawijs",
+    description: "Het Vlaams Kenniscentrum Digitale en Mediawijsheid met informatie en materialen voor iedereen die actief en kritisch wil omgaan met digitale technologie.",
+    url: "https://www.mediawijs.be/nl",
+    category: "Vorming en informatie",
+  },
+  {
+    title: "Kids Unplugged",
+    description: "Een beweging van ouders en experts die pleiten voor het uitstellen van smartphonegebruik bij kinderen om de kindertijd te beschermen.",
+    url: "https://www.kidsunplugged.be/",
+    category: "Vorming en informatie",
+  },
+  {
+    title: "MediaNest",
+    description: "Dé website over mediaopvoeding waar ouders terecht kunnen voor een antwoord op al hun vragen over de digitale wereld van hun kind.",
+    url: "https://www.medianest.be/",
+    category: "Vorming en informatie",
+  },
+  {
+    title: "Digisaurus",
+    description: "Inspiratie en versterking voor ouders en opvoeders die zich soms een 'dinosaurus' voelen in de digitale leefwereld van kinderen en jongeren.",
+    url: "https://www.digisaurus.be/",
+    category: "Vorming en informatie",
+  },
+  {
+    title: "Mediavista",
+    description: "Partner voor lezingen en workshops over mediawijsheid en cyberbewustzijn, met een focus op preventie en sensibilisering.",
+    url: "https://www.mediavista.be/",
+    category: "Vorming en informatie",
+  },
+  {
+    title: "Francien Regelink",
+    description: "Ervaringsdeskundige en expert op het gebied van online shaming en sexting, die het gesprek hierover op een rake manier aangaat.",
+    url: "https://francienregelink.nl/",
+    category: "Vorming en informatie",
+  },
   {
     title: "The amazing generation",
     description: "Hoe kom je los van je telefoon?",
@@ -54,7 +90,7 @@ export default function AanradersPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-vives-teal mb-4">Aanraders</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Een lijst van boeken en films die ik de moeite waard vind om te bekijken om te reflecteren over de topics waarover ik spreek.
+            Naast boeken en films zijn er ook heel wat sterke organisaties en platformen die je op weg helpen in de digitale wereld. Hieronder vind je een selectie van interessante websites en initiatieven rond mediawijsheid en online veiligheid.
           </p>
         </div>
 
@@ -69,7 +105,9 @@ export default function AanradersPage() {
                   <span className={`inline-block px-3 py-1 text-xs font-semibold tracking-wide rounded-full mb-2 ${
                     item.category === "Lezen"
                       ? "text-vives-teal bg-teal-50"
-                      : "text-vives-red bg-red-50"
+                      : item.category === "Audiovisueel"
+                      ? "text-vives-red bg-red-50"
+                      : "text-blue-600 bg-blue-50"
                   }`}>
                     {item.category}
                   </span>
