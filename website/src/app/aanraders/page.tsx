@@ -46,6 +46,12 @@ const recommendationItems: RecommendationItem[] = [
     category: "Vorming en informatie",
   },
   {
+    title: "Goed Genoeg – Opvoeden in tijden van hoge verwachtingen",
+    description: "Siska Schoeters gaat in gesprek met topexperts (waaronder Tom Termote) over de uitdagingen van het hedendaagse ouderschap. Een boek vol eerlijke antwoorden, herkenbare verhalen en concrete tips over o.a. schermtijd en sociale media.",
+    url: "https://www.mamabaas.be/kids/opvoeding/het-boek-goed-genoeg-opvoeden-tijden-van-hoge-verwachtingen-van-siska-schoeters-er",
+    category: "Lezen",
+  },
+  {
     title: "Kwetsbare jongeren begeleiden in een digitale wereld",
     description: "Een praktisch boek dat heldere antwoorden biedt op 13 concrete vragen over mediaopvoeding bij kwetsbare jongeren, gericht op professionals in de jeugdhulp en het jeugdwerk.",
     url: "https://www.mediawijs.be/nl/kwetsbarejongeren",
