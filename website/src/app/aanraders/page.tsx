@@ -46,6 +46,12 @@ const recommendationItems: RecommendationItem[] = [
     category: "Vorming en informatie",
   },
   {
+    title: "Kwetsbare jongeren begeleiden in een digitale wereld",
+    description: "Een praktisch boek dat heldere antwoorden biedt op 13 concrete vragen over mediaopvoeding bij kwetsbare jongeren, gericht op professionals in de jeugdhulp en het jeugdwerk.",
+    url: "https://www.mediawijs.be/nl/kwetsbarejongeren",
+    category: "Lezen",
+  },
+  {
     title: "The amazing generation",
     description: "Hoe kom je los van je telefoon?",
     url: "https://www.standaardboekhandel.be/p/the-amazing-generation-9789025914264",
