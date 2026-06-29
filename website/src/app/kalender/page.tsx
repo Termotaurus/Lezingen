@@ -21,7 +21,7 @@ const dateFormatter = new Intl.DateTimeFormat("nl-BE", {
 export default async function KalenderPage() {
   // Fetch data
   const { data: events, error } = await supabase
-    .from("Vormingen")
+    .from("vormingen")
     .select("*")
     .gte("Datum", new Date().toISOString())
     .order("Datum", { ascending: true });
