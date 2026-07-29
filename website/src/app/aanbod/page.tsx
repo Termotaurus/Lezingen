@@ -57,10 +57,10 @@ export default function AanbodPage() {
           <div className="mb-10">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Mij gaan ze niet liggen hebben! Een kritische kijk op de online wereld! <span className="text-lg font-normal text-gray-600">(3e graad secundair)</span></h3>
             <ul className="list-disc pl-5 space-y-2">
-              <li>Inzicht in digitale systemen & data-economie</li>
-              <li>Kritisch denken & informatiegeletterdheid</li>
-              <li>Geopolitieke context van nieuwe media</li>
-              <li>Zelfregulering rond focus en productiviteit versterken</li>
+              <li>Manipulatie & fake news: Prebunking</li>
+              <li>&quot;Verslaving&quot; by design: Welke technieken gebruiken apps om je aandacht vast te houden?</li>
+              <li>Dataverzameling: Big Tech en AI verzamelen diepgaande gedragsdata voor winst, beïnvloeding en controle.</li>
+              <li>Digitale weerbaarheid: Hoe gaan we hier mee om?</li>
             </ul>
           </div>
 
@@ -69,10 +69,10 @@ export default function AanbodPage() {
           <div className="mb-10">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Mij gaan ze niet liggen hebben! Een kritische kijk op de online wereld! <span className="text-lg font-normal text-gray-600">(3e graad secundair – maar kan ook voor volwassenen)</span></h3>
             <ul className="list-disc pl-5 space-y-2">
-              <li>Inzicht in digitale systemen & data-economie</li>
-              <li>Kritisch denken & informatiegeletterdheid</li>
-              <li>Geopolitieke context van nieuwe media</li>
-              <li>Zelfregulering rond focus en productiviteit versterken</li>
+              <li>Manipulatie & fake news: Prebunking</li>
+              <li>&quot;Verslaving&quot; by design: Welke technieken gebruiken apps om je aandacht vast te houden?</li>
+              <li>Dataverzameling: Big Tech en AI verzamelen diepgaande gedragsdata voor winst, beïnvloeding en controle.</li>
+              <li>Digitale weerbaarheid: Hoe gaan we hier mee om?</li>
             </ul>
           </div>
 
