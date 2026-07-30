@@ -10,6 +10,12 @@ interface RecommendationItem {
 
 const recommendationItems: RecommendationItem[] = [
   {
+    title: "Bad News",
+    description: "Een interactief online spel waarin spelers zelf in de schoenen van een fake news-verspreider stappen. Door de mechanismen achter desinformatie en manipulatie te doorgronden, word je beter bestand tegen nepnieuws.",
+    url: "https://www.getbadnews.com/nl",
+    category: "Vorming en informatie",
+  },
+  {
     title: "Mediawijs",
     description: "Het Vlaams Kenniscentrum Digitale en Mediawijsheid met informatie en materialen voor iedereen die actief en kritisch wil omgaan met digitale technologie.",
     url: "https://www.mediawijs.be/nl",
@@ -44,6 +50,18 @@ const recommendationItems: RecommendationItem[] = [
     description: "Ervaringsdeskundige en expert op het gebied van online shaming en sexting, die het gesprek hierover op een rake manier aangaat.",
     url: "https://francienregelink.nl/",
     category: "Vorming en informatie",
+  },
+  {
+    title: "Schermwijs",
+    description: "Een onmisbaar boek vol praktische tips, inzichten en handvatten voor ouders en opvoeders om kinderen en jongeren wegwijs te maken in de digitale wereld en hen op te voeden tot bewuste mediagebruikers.",
+    url: "https://www.lannoo.com/nl-nl/gezin-relaties/schermwijs-9789059969346",
+    category: "Lezen",
+  },
+  {
+    title: "Waarom een smartphone kan wachten",
+    description: "Dit boek toont aan de hand van wetenschappelijke inzichten en getuigenissen waarom het loont om het smartphonegebruik bij jonge kinderen uit te stellen, met praktische tips om hiermee aan de slag te gaan.",
+    url: "https://www.borgerhoff-lamberigts.be/shop/boeken/waarom-een-smartphone-kan-wachten",
+    category: "Lezen",
   },
   {
     title: "Goed Genoeg – Opvoeden in tijden van hoge verwachtingen",
