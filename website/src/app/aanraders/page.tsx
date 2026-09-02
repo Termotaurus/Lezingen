@@ -10,6 +10,12 @@ interface RecommendationItem {
 
 const recommendationItems: RecommendationItem[] = [
   {
+    title: "Ai, ai, AI, niemand luistert!",
+    description: "Voorstelling van School Zonder Pesten",
+    url: "https://www.schoolzonderpesten.be/aanbod/ai-ai-ai-niemand-luistert/",
+    category: "Vorming en informatie",
+  },
+  {
     title: "Bad News",
     description: "Een interactief online spel waarin spelers zelf in de schoenen van een fake news-verspreider stappen. Door de mechanismen achter desinformatie en manipulatie te doorgronden, word je beter bestand tegen nepnieuws.",
     url: "https://www.getbadnews.com/nl",
