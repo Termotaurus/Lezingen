@@ -10,6 +10,18 @@ interface RecommendationItem {
 
 const recommendationItems: RecommendationItem[] = [
   {
+    title: "Persoonlijke playlist digitale media",
+    description: "Dit is mijn persoonlijke playlist voor alles wat mij kritisch doet nadenken over digitale media.",
+    url: "https://youtube.com/playlist?list=PLvPbWxMWEmalB9Kv9H6SL_mzWkEhDyJzb&si=cxn48JrPBqtZ2PQ2",
+    category: "Audiovisueel",
+  },
+  {
+    title: "School Zonder Pesten",
+    description: "Ondersteunt scholen in het creëren van een positief schoolklimaat. Met creatieve methodieken en een warme aanpak helpen zij scholen om werk te maken van een veilige en verbonden schoolcultuur.",
+    url: "https://www.schoolzonderpesten.be/",
+    category: "Vorming en informatie",
+  },
+  {
     title: "Bad News",
     description: "Een interactief online spel waarin spelers zelf in de schoenen van een fake news-verspreider stappen. Door de mechanismen achter desinformatie en manipulatie te doorgronden, word je beter bestand tegen nepnieuws.",
     url: "https://www.getbadnews.com/nl",
@@ -103,12 +115,6 @@ const recommendationItems: RecommendationItem[] = [
     title: "VPRO Tegenlicht",
     description: "Heel wat kritische documentaires over nieuwe media en de samenleving",
     url: "https://tegenlicht.vpro.nl/",
-    category: "Audiovisueel",
-  },
-  {
-    title: "Persoonlijke playlist digitale media",
-    description: "Dit is mijn persoonlijke playlist voor alles wat mij kritisch doet nadenken over digitale media.",
-    url: "https://youtube.com/playlist?list=PLvPbWxMWEmalB9Kv9H6SL_mzWkEhDyJzb&si=cxn48JrPBqtZ2PQ2",
     category: "Audiovisueel",
   },
 ];
