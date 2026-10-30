@@ -19,17 +19,6 @@ const dateFormatter = new Intl.DateTimeFormat("nl-BE", {
 });
 
 export default async function KalenderPage() {
-  if (!supabase) {
-    return (
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4 max-w-4xl text-center">
-          <h1 className="text-4xl font-bold text-vives-teal mb-8">Kalender</h1>
-          <p className="text-red-600">Er is een fout opgetreden bij het laden van de kalender.</p>
-        </div>
-      </section>
-    );
-  }
-
   // Fetch data
   const { data: events, error } = await supabase
     .from("vormingen")

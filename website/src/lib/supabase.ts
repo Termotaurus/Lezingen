@@ -1,15 +1,11 @@
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+const supabaseUrl =
+  process.env.NEXT_PUBLIC_SUPABASE_URL ||
+  "https://zhefnrarkwxgykjtsbkr.supabase.co";
 
-if (!supabaseUrl || !supabaseAnonKey) {
-  console.warn(
-    "Ontbrekende Supabase-omgevingsvariabelen: controleer of NEXT_PUBLIC_SUPABASE_URL en NEXT_PUBLIC_SUPABASE_ANON_KEY zijn ingesteld in .env.local of in je hostingomgeving."
-  );
-}
+const supabaseAnonKey =
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
+  "sb_publishable_nokSCcLsP70XuynF2Yws9w_2OQIFvbW";
 
-export const supabase =
-  supabaseUrl && supabaseAnonKey
-    ? createClient(supabaseUrl, supabaseAnonKey)
-    : null;
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
